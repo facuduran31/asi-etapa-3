@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Grupo112 - MapaDoc" company="" webLink="http://" view-date="2025-08-29" view-index="0" gantt-divider-location="600" resource-divider-location="300" version="3.2.3240" locale="es">
+<description><![CDATA[Implementación del SGDD MapaDoc - Sanatorio Mapaci]]></description>
+<view zooming-state="default:3" id="gantt-chart">
+<field id="tpd3" name="Nombre" width="250" order="0"/>
+<field id="tpd4" name="Fecha de inicio" width="80" order="1"/>
+<field id="tpd5" name="Fecha de fin" width="80" order="2"/>
+</view>
+<view id="resource-table"><field id="0" name="Nombre" width="210" order="0"/><field id="1" name="Rol por defecto" width="86" order="1"/></view>
+<calendars><day-types><day-type id="0"/><day-type id="1"/><default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/><only-show-weekends value="false"/><overriden-day-types/><days/></day-types>
+<date year="2025" month="10" date="13" type="HOLIDAY"/>
+<date year="2025" month="11" date="17" type="HOLIDAY"/>
+<date year="2025" month="12" date="8" type="HOLIDAY"/>
+<date year="2025" month="12" date="25" type="HOLIDAY"/>
+<date year="2026" month="1" date="1" type="HOLIDAY"/>
+</calendars>
+<tasks empty-milestones="true"><taskproperties><taskproperty id="tpd0" name="type" type="default" valuetype="icon"/><taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/><taskproperty id="tpd2" name="info" type="default" valuetype="icon"/><taskproperty id="tpd3" name="name" type="default" valuetype="text"/><taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/><taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/><taskproperty id="tpd6" name="duration" type="default" valuetype="int"/><taskproperty id="tpd7" name="completion" type="default" valuetype="int"/><taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/><taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/></taskproperties>
+<task id="67" name="Fase Inicial" color="#8cb6ce" meeting="false" start="2025-08-29" duration="19" complete="0" expand="true">
+<task id="1" name="Identificación de stakeholders" meeting="false" start="2025-08-29" duration="5" complete="0" expand="true">
+<depend id="2" type="2" difference="0" hardness="Strong"/>
+<depend id="5" type="2" difference="0" hardness="Strong"/>
+<depend id="18" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="2" name="Definición del alcance y objetivos" meeting="false" start="2025-09-05" duration="2" complete="0" expand="true">
+<depend id="3" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="3" name="Estimaciones preliminares de costos" meeting="false" start="2025-09-09" duration="7" complete="0" expand="true">
+<depend id="4" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="4" name="Aprobación del proyecto" meeting="false" start="2025-09-18" duration="5" complete="0" expand="true">
+<depend id="11" type="2" difference="0" hardness="Strong"/>
+<depend id="24" type="2" difference="0" hardness="Strong"/>
+</task>
+</task>
+<task id="68" name="Gestión de adquisiciones de software" color="#8cb6ce" meeting="false" start="2025-09-05" duration="48" complete="0" expand="true">
+<task id="5" name="Análisis del estado actual del software" meeting="false" start="2025-09-05" duration="4" complete="0" expand="true">
+<depend id="6" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="6" name="Selección de expertos referentes (consultores)" meeting="false" start="2025-09-11" duration="2" complete="0" expand="true">
+<depend id="7" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="7" name="Relevamiento de proveedores de software" meeting="false" start="2025-09-15" duration="2" complete="0" expand="true">
+<depend id="8" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="8" name="Determinación de matriz de comparación" meeting="false" start="2025-09-17" duration="1" complete="0" expand="true">
+<depend id="9" type="2" difference="0" hardness="Strong"/>
+<depend id="10" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="9" name="Selección de los proveedores a enviar RFP" meeting="false" start="2025-09-18" duration="1" complete="0" expand="true">
+<depend id="11" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="10" name="Redacción RFP" meeting="false" start="2025-09-18" duration="1" complete="0" expand="true">
+<depend id="11" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="11" name="Envío de RFP a proveedores" meeting="false" start="2025-09-25" duration="1" complete="0" expand="true">
+<depend id="12" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="12" name="Recepción de presupuesto y comparaciones" meeting="false" start="2025-09-26" duration="7" complete="0" expand="true">
+<depend id="13" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="13" name="Selección de proveedor y generación y envío de Orden de Compra" meeting="false" start="2025-10-07" duration="2" complete="0" expand="true">
+<depend id="14" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="14" name="Negociación y firma del contrato de licenciamiento del SGDD MapaDoc y la app" meeting="false" start="2025-10-09" duration="3" complete="0" expand="true">
+<depend id="15" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="15" name="Compra del software SGDD MapaDoc (pago y alta de licencias)" meeting="false" start="2025-10-15" duration="2" complete="0" expand="true">
+<depend id="16" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="16" name="Recepción del software" meeting="false" start="2025-10-17" duration="15" complete="0" expand="true">
+<depend id="17" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="17" name="Controles de recepción" meeting="false" start="2025-11-07" duration="4" complete="0" expand="true">
+<depend id="30" type="2" difference="0" hardness="Strong"/>
+</task>
+</task>
+<task id="69" name="Gestión de adquisiciones de hardware" color="#8cb6ce" meeting="false" start="2025-09-05" duration="33" complete="0" expand="true">
+<task id="18" name="Análisis del estado actual de hardware" meeting="false" start="2025-09-05" duration="4" complete="0" expand="true">
+<depend id="19" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="19" name="Selección de expertos referentes (consultores)" meeting="false" start="2025-09-11" duration="2" complete="0" expand="true">
+<depend id="20" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="20" name="Relevamiento de proveedores" meeting="false" start="2025-09-15" duration="2" complete="0" expand="true">
+<depend id="21" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="21" name="Determinación de matriz de comparación" meeting="false" start="2025-09-17" duration="1" complete="0" expand="true">
+<depend id="22" type="2" difference="0" hardness="Strong"/>
+<depend id="23" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="22" name="Selección de los proveedores a enviar RFP" meeting="false" start="2025-09-18" duration="1" complete="0" expand="true">
+<depend id="24" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="23" name="Redacción RFP" meeting="false" start="2025-09-18" duration="1" complete="0" expand="true">
+<depend id="24" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="24" name="Envío de RFP a proveedores" meeting="false" start="2025-09-25" duration="1" complete="0" expand="true">
+<depend id="25" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="25" name="Recepción de presupuesto y comparaciones" meeting="false" start="2025-09-26" duration="7" complete="0" expand="true">
+<depend id="26" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="26" name="Selección de proveedor y generación y envío de Orden de Compra" meeting="false" start="2025-10-07" duration="2" complete="0" expand="true">
+<depend id="27" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="27" name="Recepción del hardware" meeting="false" start="2025-10-09" duration="7" complete="0" expand="true">
+<depend id="28" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="28" name="Controles de recepción" meeting="false" start="2025-10-21" duration="2" complete="0" expand="true">
+<depend id="29" type="2" difference="0" hardness="Strong"/>
+<depend id="37" type="2" difference="0" hardness="Strong"/>
+</task>
+</task>
+<task id="70" name="Implementación y configuración" color="#8cb6ce" meeting="false" start="2025-10-23" duration="27" complete="0" expand="true">
+<task id="29" name="Implementar y configurar el servidor" meeting="false" start="2025-10-23" duration="4" complete="0" expand="true">
+<depend id="30" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="30" name="Instalar el sistema operativo" meeting="false" start="2025-11-13" duration="2" complete="0" expand="true">
+<depend id="31" type="2" difference="0" hardness="Strong"/>
+<depend id="32" type="2" difference="0" hardness="Strong"/>
+<depend id="33" type="2" difference="0" hardness="Strong"/>
+<depend id="36" type="2" difference="0" hardness="Strong"/>
+<depend id="47" type="2" difference="0" hardness="Strong"/>
+<depend id="48" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="31" name="Instalar antivirus" meeting="false" start="2025-11-18" duration="2" complete="0" expand="true">
+<depend id="34" type="2" difference="0" hardness="Strong"/>
+<depend id="43" type="2" difference="0" hardness="Strong"/>
+<depend id="44" type="2" difference="0" hardness="Strong"/>
+<depend id="46" type="2" difference="0" hardness="Strong"/>
+<depend id="49" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="32" name="Implementar y configurar el SGDD" meeting="false" start="2025-11-18" duration="7" complete="0" expand="true">
+</task>
+<task id="33" name="Implementar y configurar la app" meeting="false" start="2025-11-18" duration="7" complete="0" expand="true">
+</task>
+<task id="34" name="Verificar compatibilidades técnicas" meeting="false" start="2025-11-20" duration="5" complete="0" expand="true">
+<depend id="35" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="35" name="Migrar la base de datos" meeting="false" start="2025-11-27" duration="3" complete="0" expand="true">
+<depend id="40" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="36" name="Creación y configuración de roles y permisos" meeting="false" start="2025-11-18" duration="5" complete="0" expand="true">
+<depend id="39" type="2" difference="0" hardness="Strong"/>
+<depend id="45" type="2" difference="0" hardness="Strong"/>
+<depend id="46" type="2" difference="0" hardness="Strong"/>
+<depend id="49" type="2" difference="0" hardness="Strong"/>
+</task>
+</task>
+<task id="71" name="Digitalización de HCE en papel" color="#8cb6ce" meeting="false" start="2025-10-23" duration="37" complete="0" expand="true">
+<task id="37" name="Instalar y configurar el nuevo scanner" meeting="false" start="2025-10-23" duration="2" complete="0" expand="true">
+<depend id="38" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="38" name="Escanear y organizar los documentos a digitalizar" meeting="false" start="2025-10-27" duration="3" complete="0" expand="true">
+<depend id="39" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="39" name="Carga de documentos al sistema SGDD" meeting="false" start="2025-11-25" duration="5" complete="0" expand="true">
+<depend id="40" type="2" difference="0" hardness="Strong"/>
+<depend id="41" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="40" name="Indexación de las HCE por paciente y fecha" meeting="false" start="2025-12-02" duration="10" complete="0" expand="true">
+<depend id="57" type="2" difference="0" hardness="Strong"/>
+<depend id="58" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="41" name="Control de calidad de los documentos escaneados" meeting="false" start="2025-12-02" duration="3" complete="0" expand="true">
+<depend id="42" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="42" name="Eliminación segura de documentos físicos digitalizados" meeting="false" start="2025-12-05" duration="2" complete="0" expand="true">
+<depend id="66" type="2" difference="0" hardness="Strong"/>
+</task>
+</task>
+<task id="72" name="Segurización" color="#8cb6ce" meeting="false" start="2025-11-18" duration="11" complete="0" expand="true">
+<task id="43" name="Segurizar los puertos" meeting="false" start="2025-11-20" duration="3" complete="0" expand="true">
+<depend id="52" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="44" name="Configurar accesos por VPN" meeting="false" start="2025-11-20" duration="3" complete="0" expand="true">
+</task>
+<task id="45" name="Definir perfiles de usuario y acceso" meeting="false" start="2025-11-25" duration="3" complete="0" expand="true">
+<depend id="46" type="2" difference="0" hardness="Strong"/>
+<depend id="58" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="46" name="Definir y otorgar claves de acceso" meeting="false" start="2025-11-28" duration="3" complete="0" expand="true">
+<depend id="50" type="2" difference="0" hardness="Strong"/>
+<depend id="61" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="47" name="Definir políticas de backup y respaldo" meeting="false" start="2025-11-18" duration="3" complete="0" expand="true">
+<depend id="56" type="2" difference="0" hardness="Strong"/>
+<depend id="66" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="48" name="Definir tiempo de guardado (retención) de las HC digitalizadas" meeting="false" start="2025-11-18" duration="1" complete="0" expand="true">
+<depend id="56" type="2" difference="0" hardness="Strong"/>
+</task>
+</task>
+<task id="73" name="Pruebas" color="#8cb6ce" meeting="false" start="2025-11-25" duration="24" complete="0" expand="true">
+<task id="49" name="Validación de los cambios implementados del sistema operativo" meeting="false" start="2025-11-25" duration="7" complete="0" expand="true">
+<depend id="59" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="50" name="Probar permisos de cada rol y validar los correctos accesos y visualizaciones" meeting="false" start="2025-12-03" duration="1" complete="0" expand="true">
+<depend id="51" type="2" difference="0" hardness="Strong"/>
+<depend id="63" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="51" name="Prueba de estrés del servidor y a la aplicación" meeting="false" start="2025-12-04" duration="2" complete="0" expand="true">
+<depend id="53" type="2" difference="0" hardness="Strong"/>
+<depend id="59" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="52" name="Analizar los puertos abiertos que utiliza el servidor principal, verificando que ninguno esté dejando en evidencia una clara vulnerabilidad" meeting="false" start="2025-11-25" duration="3" complete="0" expand="true">
+<depend id="59" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="53" name="Prueba de almacenamiento según peso de los archivos" meeting="false" start="2025-12-09" duration="1" complete="0" expand="true">
+<depend id="54" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="54" name="Prueba ABM (alta, baja y modificación) del SGDD" meeting="false" start="2025-12-10" duration="1" complete="0" expand="true">
+<depend id="55" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="55" name="Prueba ABM (alta, baja y modificación) de la app" meeting="false" start="2025-12-11" duration="1" complete="0" expand="true">
+<depend id="56" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="56" name="Prueba de tiempo de guardado, respaldo y restauración" meeting="false" start="2025-12-12" duration="1" complete="0" expand="true">
+<depend id="59" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="57" name="Prueba de búsqueda de historias clínicas" meeting="false" start="2025-12-17" duration="1" complete="0" expand="true">
+<depend id="58" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="58" name="Validación y verificación del correcto funcionamiento del nuevo software implementado" meeting="false" start="2025-12-18" duration="2" complete="0" expand="true">
+<depend id="59" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="59" name="Generación de reporte integral de pruebas" meeting="false" start="2025-12-22" duration="2" complete="0" expand="true">
+<depend id="60" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="60" name="Corrección de errores" meeting="false" start="2025-12-24" duration="4" complete="0" expand="true">
+<depend id="66" type="2" difference="0" hardness="Strong"/>
+</task>
+</task>
+<task id="74" name="Capacitación" color="#8cb6ce" meeting="false" start="2025-12-03" duration="6" complete="0" expand="true">
+<task id="61" name="Definir entrenador" meeting="false" start="2025-12-03" duration="1" complete="0" expand="true">
+<depend id="62" type="2" difference="0" hardness="Strong"/>
+<depend id="63" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="62" name="Definir fecha y hora del dictado" meeting="false" start="2025-12-04" duration="1" complete="0" expand="true">
+<depend id="64" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="63" name="Confeccionar material" meeting="false" start="2025-12-04" duration="2" complete="0" expand="true">
+<depend id="64" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="64" name="Dictar capacitación" meeting="false" start="2025-12-09" duration="2" complete="0" expand="true">
+<depend id="65" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="65" name="Evaluar los conocimientos" meeting="false" start="2025-12-11" duration="1" complete="0" expand="true">
+<depend id="66" type="2" difference="0" hardness="Strong"/>
+</task>
+</task>
+<task id="75" name="Seguimiento post implementación" color="#8cb6ce" meeting="false" start="2025-12-31" duration="3" complete="0" expand="true">
+<task id="66" name="Validar el funcionamiento de las aplicaciones en hora pico" meeting="false" start="2025-12-31" duration="3" complete="0" expand="true">
+</task>
+</task>
+</tasks><resources>
+<resource id="0" name="Líder de proyecto" function="Default:1" contacts="" phone=""/>
+<resource id="1" name="Especialista en Integración" function="Default:0" contacts="" phone=""/>
+<resource id="2" name="Especialista en seguridad" function="Default:0" contacts="" phone=""/>
+<resource id="3" name="Especialista en implementación y capacitación" function="Default:0" contacts="" phone=""/>
+<resource id="4" name="Analista de Calidad" function="Default:0" contacts="" phone=""/>
+<resource id="5" name="Administrador de sistemas de TI" function="Default:0" contacts="" phone=""/>
+<resource id="6" name="Analista funcional" function="Default:0" contacts="" phone=""/>
+<resource id="7" name="Gerencia" function="Default:0" contacts="" phone=""/>
+<resource id="8" name="Personal administrativo" function="Default:0" contacts="" phone=""/>
+</resources><allocations>
+<allocation task-id="1" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="2" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="2" resource-id="6" function="Default:0" responsible="false" load="100.0"/>
+<allocation task-id="3" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="3" resource-id="6" function="Default:0" responsible="false" load="100.0"/>
+<allocation task-id="4" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="5" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="5" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+<allocation task-id="5" resource-id="6" function="Default:0" responsible="false" load="100.0"/>
+<allocation task-id="6" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="7" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="8" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="9" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="10" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="11" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="12" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="13" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="14" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="15" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="15" resource-id="6" function="Default:0" responsible="false" load="100.0"/>
+<allocation task-id="16" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="17" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="18" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="19" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="20" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="21" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="22" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="23" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="24" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="25" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="26" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="27" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="28" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="29" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="30" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="31" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="31" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+<allocation task-id="32" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="32" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+<allocation task-id="33" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="33" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+<allocation task-id="34" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="35" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="35" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+<allocation task-id="36" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="36" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+<allocation task-id="37" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="38" resource-id="8" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="39" resource-id="8" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="40" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="41" resource-id="8" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="42" resource-id="8" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="43" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="43" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+<allocation task-id="44" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="44" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+<allocation task-id="45" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="45" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+<allocation task-id="46" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="46" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+<allocation task-id="47" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="47" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+<allocation task-id="47" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+<allocation task-id="48" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="48" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+<allocation task-id="49" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="50" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="51" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="52" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="53" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="54" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="55" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="56" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="56" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+<allocation task-id="57" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="58" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="59" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="60" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="61" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="62" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="63" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="64" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="65" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+<allocation task-id="66" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+</allocations><vacations/><previous/><roles roleset-name="Default"/></project>
